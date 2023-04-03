@@ -1,0 +1,74 @@
+{
+  "libros": [
+    {
+      "titulo": "El Quijote",
+      "editorial": "Esparsa",
+      "nropaginas": 1200,
+      "autor": [
+        "Miguel de Cervantes"
+      ],
+      "tipo": "Novela",
+      "claves": [
+        "caballeria",
+        "costumbre"
+      ],
+      "resumen": "La primera novela moderna, maestra de narradores. Representa la mejor España, la que nos compensa de tantas miserias: nuestra Biblia.",
+      "id": "8bc186d9-c902-47a5-be6c-c38c50e21137",
+      "fechaRegistro": "3/19/2023, 3:39:17 PM",
+      "fechaActualizacion": "3/19/2023, 3:39:17 PM"
+    },
+    {
+      "titulo": "La Odisea",
+      "editorial": "Sopena",
+      "nropaginas": 100,
+      "autor": [
+        "Homero"
+      ],
+      "tipo": "Novela",
+      "claves": [
+        "dioses",
+        "aventura",
+        "Grecia"
+      ],
+      "resumen": "El poema épico por antonomasia, el origen de toda la literatura posterior, la divina pirámide de la literatura.",
+      "id": "dac5c5d5-5458-4680-a6c2-e865c222f5a4",
+      "fechaRegistro": "3/19/2023, 3:39:57 PM",
+      "fechaActualizacion": "3/19/2023, 3:39:58 PM"
+    },
+    {
+      "titulo": "La Divina Comedia",
+      "editorial": "Oveja Negra",
+      "nropaginas": 100,
+      "autor": [
+        "Dante Alighieri"
+      ],
+      "tipo": "Novela",
+      "claves": [
+        "Infierno",
+        "Paraiso",
+        "Purgatorio"
+      ],
+      "resumen": "Este genial poema comenzó a escribirse hacia 1306 y relata el viaje de su autor por el Infierno, el Paraíso y el Purgatorio.",
+      "id": "6a3d8796-7337-4746-91e2-619348688dd5",
+      "fechaRegistro": "3/19/2023, 3:40:14 PM",
+      "fechaActualizacion": "3/19/2023, 3:40:14 PM"
+    },
+    {
+      "titulo": "Hamlet",
+      "editorial": "Círculo de Lectores",
+      "nropaginas": 100,
+      "autor": [
+        "William Shakespeare"
+      ],
+      "tipo": "Novela",
+      "claves": [
+        "venganza",
+        "traición"
+      ],
+      "resumen": "Una de las piezas más representadas. La ira, el amor, la venganza... se concitan en la desdichada historia del príncipe de Dinamarca.",
+      "id": "355924c0-afb1-491f-ac62-e9c6709d22de",
+      "fechaRegistro": "3/19/2023, 3:40:28 PM",
+      "fechaActualizacion": "3/19/2023, 3:40:28 PM"
+    }
+  ]
+}
