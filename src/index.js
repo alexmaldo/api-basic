@@ -1,6 +1,6 @@
 const express = require("express");
-const v1LibrosRouter =  require("./V1/routes/libroRoutes.js");
-const v1AutorRouter =  require("./V1/routes/autorRoutes.js");
+const v1LibrosRouter =  require("./V1/routes/libro.js");
+const v1AutorRouter =  require("./V1/routes/autor.js");
 
 const app = express();
 const PORT = process.env.PORT || 5280;
@@ -9,6 +9,6 @@ app.use(express.json()); //En generarl uando se hace una petición esta pasa por
 
 app.use("/api/v1/libros", v1LibrosRouter);
 app.use("/api/v1/autores", v1AutorRouter);
-const nada = "nada";
+
 
 app.listen(PORT, () => {console.log(`Servidor escuchando en puerto ${PORT}`)  });
