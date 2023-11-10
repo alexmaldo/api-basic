@@ -70,5 +70,22 @@
       "fechaRegistro": "3/19/2023, 3:40:28 PM",
       "fechaActualizacion": "3/19/2023, 3:40:28 PM"
     }
+  ],
+  "autores": [
+    {"nombres": "Gabriel",
+     "apellidos":"Garcia Marquez",
+    "pais":"Colombia",
+    "id": "775924c0-afb1-491f-ac62-e9c6709d27de",
+    "fechaActualizacion": "3/19/2023, 3:40:28 PM"},
+    {"nombres": "Stephen",
+     "apellidos":"King",
+    "pais":"Estados Unidos",
+    "id": "885924c0-afb1-491f-ac62-e9c6709d28de",
+    "fechaActualizacion": "3/19/2023, 3:40:28 PM"},
+    {"nombres": "Paulo",
+     "apellidos":"Coelho",
+    "pais":"Brasil",
+    "id": "445924c0-afb1-491f-ac62-e9c6709d24de",
+    "fechaActualizacion": "3/19/2023, 3:40:28 PM"}
   ]
 }

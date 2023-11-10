@@ -1,23 +1,15 @@
 const express = require("express");
 const router = express.Router();
+const autoresController = require("../../controllers/autorController");
 
-router.get("/", (req,res) => { 
-    res.send("retorna todos los  autores")
-});
-
-
-router.get("/:idAutor", (req,res) => { 
-    res.send(`retorna el autor con id ${req.params.idAutor}`)
-});
+router.get("/",  autoresController.getAllAutores);
 
 
-router.post("/:idAutor", (req,res) => { 
-    res.send(`Agrega un autor con id ${req.params.idAutor}`)
-});
+router.get("/:idAutor", autoresController.getOneAutor);
 
-router.patch("/:idAutor", (req,res) => { 
-    res.send(`Actualiza el Autor con id ${req.params.idAutor}`)
-});
 
+router.post("/", autoresController.createNewAutor);
+
+router.patch("/:idAutor", autoresController.updateOneAutor);
 
 module.exports = router;
